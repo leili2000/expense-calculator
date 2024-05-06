@@ -14,21 +14,7 @@ class Month:
         self.personal = 0
         self.categories = {} # keywords used in file
         
-        self.load_keys()
         print(self.categories)
-        
-    def load_keys(self):
-        '''fills in dictionary with the categories for that month
-        should only run once (during init)'''
-        for line in self.file:
-            if line == "Keys:":
-                break
-        
-        for line in self.file:
-            if line.split() == ['']:
-                break
-            self.categories[line] = 0
-        
     
     def calculate(self): # fills in values with data from file
         try:
