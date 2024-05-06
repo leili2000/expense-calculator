@@ -1,0 +1,5 @@
+this line is for any notes the user wants to write to themselves
+price  category  necessary/split  note
+300  treat      "ice-cream" # 300 dollars added to the treat category and 300 dollars added to personal expenses
+10  school    n  "house" # 10 dollars added to the school category and 10 dollars added to necessary expenses
+15  food      sp  "hamburgers" # 15 dollars added to the food category and 7.5 dollars added to both necessary and personal expenses
